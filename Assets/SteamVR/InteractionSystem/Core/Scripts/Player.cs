@@ -249,7 +249,7 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		void Awake()
 		{
-            SteamVR.Initialize(true); //force openvr
+            //SteamVR.Initialize(true); //force openvr
 
 			if ( trackingOriginTransform == null )
 			{
